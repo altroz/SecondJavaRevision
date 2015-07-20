@@ -13,8 +13,7 @@ public class ListIteratorTest {
 			palindrome.add(ch);
 		System.out.println("Input string is: " + palStr);
 		ListIterator<Character> iterator = palindrome.listIterator();
-		ListIterator<Character> revIterator = palindrome
-				.listIterator(palindrome.size());
+		ListIterator<Character> revIterator = palindrome.listIterator(palindrome.size());
 
 		boolean result = true;
 		while (revIterator.hasPrevious() && iterator.hasNext()) {
