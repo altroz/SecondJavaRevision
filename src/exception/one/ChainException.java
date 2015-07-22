@@ -23,5 +23,6 @@ public class ChainException {
 			System.out.println("The cause of the exception is: "
 					+ re.getCause());
 		}
+
 	}
 }
